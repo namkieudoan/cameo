@@ -1,0 +1,212 @@
+/* pc plus */
+@media (min-width: 100em){
+    /* html */
+    html {
+        background-color: #191919;
+    }
+    /* header-section */
+    .header-section {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    /* slider */
+    .sliders {
+        margin: 0 auto;
+        background-color: #010101;
+        max-width: 1600px;
+        position: relative;
+    }
+    .sliders::after {
+        position: absolute;
+        content: "";
+        width:300px;
+        height: 570px;
+        top: 10px;
+       background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(0, 0, 0, 0.836));
+    }
+    .sliders::before {
+        position: absolute;
+        content: "";
+        width:300px;
+        height: 570px;
+        top: 10px;
+        right: 0;
+       background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0, 0, 0, 0.945));
+    }
+    /* galleries-slider */
+    .gallerries {
+        background-color: #1d1b1d ;
+    }
+    .galleries-slider {
+        
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    .container {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 100px 22px;
+    }
+    /* footer */
+    .footer {
+        background-color: #1e1b1e;
+    }
+    
+    .footer-container {
+        margin: 54px auto;
+        padding: 0px 0px 0px;
+        max-width: 1600px;
+    }
+}
+
+/* tablet + mobile */
+@media (max-width: 64em) {
+    /* .nav-bar-icon */
+    .nav-bar-icon {
+        display: block;
+        margin-top: 10px;
+        margin-right: 8px;
+    }
+    .nav-bar-overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.3);
+    }
+
+    /* header */
+    .nav {
+        display: none;
+    }
+
+
+    .header-search {
+        max-width: none;
+
+    }
+    .text-desc {
+        display: none;
+    }
+    
+    .galleries-slider {
+        display: none;
+    }
+
+    /* main */
+    .container-list  .title-container {
+        display: block;
+        text-align: center;
+    }
+    .container-list .title-right {
+        display: none;
+    }
+
+    /* card-list */
+    .card-list {
+        padding-bottom: 45px;
+        overflow-x: scroll;
+    }
+
+
+    /* footer */
+    .footer-main {
+        flex-direction: column;
+    }
+    .mailing-section {
+        text-align: center;
+    }
+    .footer-information {
+        flex-wrap: wrap;
+    }
+    .footer-information-left {
+        margin-right: 0;
+        text-align: center; 
+    }
+    
+    .language-section {
+        display: none;
+    }
+    .enroll-register {
+        text-align: center;
+        margin-top: 54px;
+    }
+    .enroll-section > span,
+    .register-section >span {
+        float: none;
+        display: inline-block;
+    }
+    .footer-information-right {
+        width: 100%;
+    }
+    .icon-social {
+        width: 100%;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .icon-social > a {
+        font-size: 22px;
+        padding: 0 14px;
+    }
+
+    /* arrow-product */
+    .title-container >h2::after {
+        display: block;
+    }
+}
+
+/* Tablet: >= 740px  46.25em and <1024px 64em*/
+@media (min-width:  46.25em) and (max-width:  64em) {
+    
+
+    /* slider */
+    .sliders {
+        padding-top: 500px;
+    }
+    .text-content {
+        position: absolute;
+        width: 423px;
+        top: 354px;
+        left: 5%;
+    }
+    .text-sub-heading {
+        font-size: 14px;
+    }
+    .text-heading {
+        color: #fff;
+        font-size: 34px;
+        margin: 14px 0;
+    }
+
+    /* main */
+    .container {
+        padding: 60px 24px;
+    }
+}
+/* Mobile: < 740px 46.1875em */
+@media (max-width: 46.1875em) {
+
+    /* slider */
+    .sliders {
+        padding-top: 420px;
+    }
+    .text-content {
+        display: none;
+    }
+    
+
+    /* main */
+    .container {
+        padding: 60px 24px;
+    }
+
+    /* footer */
+    .icon-social > a {
+        font-size: 26px;
+        padding: 0 16px;
+    }
+
+    
+}
+

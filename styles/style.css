@@ -16,6 +16,7 @@
 html {
     font-family: 'Rubik', sans-serif;
     overflow-y: scroll;
+    min-width: 470px;
 }
 a {
     text-decoration: none;
@@ -240,7 +241,7 @@ li {
 .sliders {
     position: relative;
     padding-top: 580px;
-    background: url('/images/slider3.jpg') top center / cover no-repeat;
+    background: url('../images/slider3.jpg') top center / cover no-repeat;
 }
 
 .text-content {

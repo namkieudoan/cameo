@@ -305,13 +305,17 @@
         padding: 60px 24px;
     }
     
+    /* live call*/
+    .person {
+        width: 422px;
+    }
     /* carousel */
     .carousel {
         flex-wrap: wrap;
     }
     .carousel-item {
         margin: 12px auto;
-        width: 60%;
+        width: 80%;
     }
 
 

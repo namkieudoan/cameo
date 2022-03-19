@@ -16,7 +16,6 @@
 html {
     font-family: 'Rubik', sans-serif;
     overflow-y: scroll;
-    min-width: 470px;
 }
 a {
     text-decoration: none;

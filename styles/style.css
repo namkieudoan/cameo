@@ -26,6 +26,27 @@ a {
 li {
    list-style: none; 
 }
+/* width */
+::-webkit-scrollbar {
+    height: 3px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(160, 159, 159); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(31, 33, 74, 1); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+
+  }
 
 /* clear */
 .clear-both {
@@ -119,12 +140,12 @@ li {
 .input-item {
     width: 100px;
     flex-grow: 1;
-    font-size: 14px;
+    font-size: 16px;
     border: none;
     height: 17px;
     outline: none;
-    font-weight: var(--primary-font-weight);
-    opacity: 0.4;
+    font-weight: 600;
+    opacity: 0.5;
 }
 /* Header -Login */
 .header-login {
@@ -219,7 +240,7 @@ li {
 .sliders {
     position: relative;
     padding-top: 580px;
-    background: url('/cameo-html-css/images/slider3.jpg') top center / cover no-repeat;
+    background: url('/images/slider3.jpg') top center / cover no-repeat;
 }
 
 .text-content {
@@ -648,6 +669,27 @@ li {
 
 
 /* Tablet + Mobile */
+.s-header-nav {
+    display: none;
+}
+
+#nav-checkbox:checked ~ .s-header-nav {
+    transform: translateX(0px);
+
+}
+#nav-checkbox:checked ~ .nav-bar-overlay {
+    display: block;
+
+}
+#nav-checkbox:checked  .ns-header-times {
+    display: block;
+
+}
+#nav-checkbox:checked  html {
+    overflow-y: hidden;
+
+}
+
 /* .arrow-product */
 
 .title-container >h2::after {

@@ -17,8 +17,11 @@
     <!-- header -->
     <div class="header " >
         <div class="header-section">
-            <div class="nav-bar-icon"> <i class="fa-solid fa-bars"></i></div>
-            <div class="nav-bar-overlay"></div>
+            <label for="nav-checkbox" class="nav-bar-icon"> <i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" hidden name="" id="nav-checkbox">
+            <label for="nav-checkbox" class="nav-bar-overlay"></label>
+
+
             <div class="header-logo">
                 <a href=""><img src="https://cdn.cameo.com/staticDir/logo_white.svg" alt="logo-cameo" ></a>
             </div>
@@ -163,7 +166,89 @@
                         <li class="item-nav"><a href="" class="link-item-nav">About</a></li>
                     </ul>
                 </div>
-            </div> 
+            </div>
+            <!-- nav s - mobile -->
+             <div class="s-header-nav">
+                 <div class="s-header-top">
+                    <div class="s-header-logo">
+                        <a href="" ><img src="https://cdn.cameo.com/staticDir/logo_white.svg" alt="logo-cameo" ></a>
+                    </div>
+                    <label for ="nav-checkbox" class="s-header-times">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                 </div>
+                 <div class="s-header-body">
+                    <ul class="s-nav-list">
+                        <li class="s-nav-item"> 
+                            <a href="" class="s-link-nav-item">
+                                Categories
+                            </a>
+                            <!-- sub-nav-mobile -->
+                            <div class="s-sub-nav">
+                                <ul class="s-sub-nav-list">
+                                    <li class="s-sub-nav-item">
+                                        <a href="" class="s-link-sub-nav-item">
+                                            <h5> Actor</h5>
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                    <li class="s-sub-nav-item">
+                                        <a href="" class="s-link-sub-nav-item">
+                                            <h5> Athletes</h5>
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                    <li class="s-sub-nav-item">
+                                        <a href="" class="s-link-sub-nav-item">
+                                            <h5> Musicians</h5>
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                    <li class="s-sub-nav-item">
+                                        <a href="" class="s-link-sub-nav-item">
+                                            <h5> Reality TV</h5>
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                    <li class="s-sub-nav-item">
+                                        <a href="" class="s-link-sub-nav-item">
+                                            <h5> Comedians</h5>
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                    <li class="s-sub-nav-item">
+                                        <a href="" class="s-link-sub-nav-item">
+                                            <h5> Creators</h5>
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="s-nav-item"> 
+                            <a href="" class="s-link-nav-item">Events</a>
+                            <div class="s-sub-nav">
+                                <ul class="s-sub-nav-list">
+                                    <li class="s-sub-nav-item">
+                                        <a href="" class="s-link-sub-nav-item">
+                                            <h5> Cameo Calls</h5>
+                                        </a>
+                                    </li>
+                                    <li class="s-sub-nav-item">
+                                        <a href="" class="s-link-sub-nav-item">
+                                            <h5> Cameo Live</h5>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="s-nav-item"> <a href="" class="s-link-nav-item">Business</a></li>
+                        <li class="s-nav-item"> <a href="" class="s-link-nav-item">About</a></li>
+                    </ul>
+                 </div>
+
+             </div>
             <div class="header-search">
                 <div class="search-section">
                     <a href=""><i class="icon-search fa-solid fa-search"></i></a>
@@ -196,7 +281,7 @@
         <div class="galleries-slider">
             <div class="my-galleries">
                 <div>
-                    <img class="img-galleries" src="/cameo-html-css/images/galleries1.jpg" alt="slider 1">
+                    <img class="img-galleries" src="./images/galleries1.jpg" alt="slider 1">
                 </div>
                 <div class="text-galleries">
                     <p class="text-galleries-title">CAMEO FOR BUSINESS</p>
@@ -205,7 +290,7 @@
             </div>
             <div class="my-galleries">
                 <div>
-                    <img class="img-galleries"  src="/cameo-html-css/images/galleries2.jpg" alt="slider 1">
+                    <img class="img-galleries"  src="./images/galleries2.jpg" alt="slider 1">
                 </div>
                 <div class="text-galleries">
                     <p class="text-galleries-title">CAMEO FOR BUSINESS</p>
@@ -214,7 +299,7 @@
             </div>
             <div class="my-galleries">
                 <div>
-                    <img class="img-galleries"  src="/cameo-html-css/images/galleries3.jpg" alt="slider 1">
+                    <img class="img-galleries"  src="./images/galleries3.jpg" alt="slider 1">
                 </div>
                 <div class="text-galleries">
                     <p class="text-galleries-title">CAMEO FOR BUSINESS</p>
@@ -223,7 +308,7 @@
             </div>
             <div class="my-galleries">
                 <div >
-                    <img class="img-galleries" src="/cameo-html-css/images/galleries4.jpg" alt="slider 1">
+                    <img class="img-galleries" src="./images/galleries4.jpg" alt="slider 1">
                 </div>
                 <div class="text-galleries">
                     <p class="text-galleries-title">CAMEO FOR BUSINESS</p>
@@ -1664,12 +1749,12 @@
                 <div class="enroll-register">
                     <div class="enroll-section">
                         <p>Ready to become a talent on Cameo?</p>
-                        <span>Enroll as talent</span>
+                        <span>  <a href="">Enroll as talent</a> </span>
                         <div class="clear-both"></div>
                     </div>
                     <div class="register-section">
                         <p>Are you an agent, manager or publicist?</p>
-                        <span>Register as a Partner</span>
+                        <span> <a href="">Register as a Partner</a> </span>
                         <div class="clear-both"></div>
 
                     </div>
